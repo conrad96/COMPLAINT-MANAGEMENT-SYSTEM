@@ -1,0 +1,56 @@
+features
+users/external/public/staff
+-online status of respective staff
+-navigation
+-nature of complaint
+-field to fill in complaintant's detail
+-field to fill in complaint
+-submit form to admin(person to answer complaint)
+-Feedback to complaintant
+-display status of complaint(pending or Answered)
+
+if nature of complaint is related to 
+-harrassment/workmates/salary-->human resource
+-IT/computers/internet-->IT operations
+-food/tea--->catery
+-financial/TB/bonds-->bankers/Financial Advisors/communication dept
+-security--->police/security officer
+
+features for staff
+staff in respective dept-->incharge of receiving the complaints wt accounts
+-views the complaint(with date) until answered
+-sender of complaint
+-types feedback
+-sends feedback
+-no. of complaints in his/her category
+
+features for Admin 
+-view total complaints
+-views summary report about all the complaints from each category
+-carry out some satistics with the information
+-online status of all staff
+
+//tables
+-staff
+-admin
+-complains
+||||||||||||||
+complains
+-ref_ID
+-comp_ID// Nas
+-category(Department)
+-complaint
+-staff_ID
+||||||||||||||
+staff
+-staff_ID
+-staff_name
+-department
+-username
+-password
+||||||||||||||
+admin
+-admin_ID
+-admin_uname
+-password
+
